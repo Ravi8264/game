@@ -20,7 +20,7 @@ btn1.addEventListener('click', () => {
     if (input.value === '') {
         //     btn1.disabled = true;
         //     btn2.disabled = true;
-        predict.innerHTML = `<h3>Please Enter Some Value<h3>`
+        predict.innerHTML = `<h3 style="color:red">Please Enter Some Value<h3>`
     }
     //else if{
     // btn1.disabled = false;
